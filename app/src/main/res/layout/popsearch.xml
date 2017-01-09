@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:background="@drawable/drawoblewitel"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/id1"
+                android:layout_width="match_parent"
+
+                android:elevation="1dp"
+                android:translationZ="0.5dp"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="论坛"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/id2"
+                android:layout_width="match_parent"
+
+                android:elevation="1dp"
+                android:translationZ="0.5dp"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="会诊"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/id3"
+                android:layout_width="match_parent"
+
+                android:elevation="1dp"
+                android:translationZ="0.5dp"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="医生"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/id4"
+                android:layout_width="match_parent"
+                android:elevation="1dp"
+                android:translationZ="0.5dp"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="杂志"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/id5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="课件"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/id6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="小组"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/id7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="帖子"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/id9"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="ECG"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/id10"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="DCG"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/id11"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="ABPM"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/id12"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:text="其他"
+                    android:textSize="16sp"
+                    android:textColor="@color/gwe"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_integral"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shallowGrey"
+    tools:context="com.compassecg.test720.compassecg.Home.AcitvityW.my.integralActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/titl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/back_tomove" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:text="账户积分"
+
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:id="@+id/lv_mingxi"
+            android:layout_width="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentRight="true">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="明细"
+                android:textColor="@color/gwe"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swip"
+    android:layout_below="@+id/titl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="105dp"
+
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp">
+
+
+                <com.compassecg.test720.compassecg.View.CircleImageView
+                    android:id="@+id/header_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@+id/guize"
+                    android:paddingLeft="15dp"
+                    android:orientation="vertical"
+                    android:layout_toRightOf="@+id/header_img">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:text="阿金纳"
+                        android:textSize="16sp"
+                        android:gravity="bottom"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/gwe"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:text="我的积分："
+                            android:gravity="top"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/intergral"
+                            android:layout_width="wrap_content"
+                            android:text="450"
+                            android:textSize="16sp"
+                            android:gravity="top"
+                            android:textColor="@color/wenhong"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/guize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/rule"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/backguang_l_hui"
+                        android:gravity="center"
+                        android:text="积分规则"
+                        android:textColor="@color/gray"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/Exchangerecord"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/backguang_l_hui"
+                        android:gravity="center"
+                        android:text="兑换记录"
+                        android:textColor="@color/gray"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+            <com.compassecg.test720.compassecg.View.MyListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/header"
+                android:background="@color/white"
+                android:dividerHeight="0.5dp"
+                android:scrollbars="none"
+                android:divider="@color/shallowGrey"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"></com.compassecg.test720.compassecg.View.MyListView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>
+
+
+</RelativeLayout>

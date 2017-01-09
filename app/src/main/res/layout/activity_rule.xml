@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shallowGrey"
+    android:orientation="vertical"
+    tools:context="com.compassecg.test720.compassecg.Home.AcitvityW.my.ruleActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:textColor="@color/gwe"
+
+            android:text="积分用途" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:textColor="@color/gwe"
+            android:paddingLeft="15dp"
+            android:paddingBottom="20dp"
+            android:text="积分可用于礼物兑换" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:padding="15dp"
+            android:textColor="@color/gwe"
+
+            android:text="积分规则" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:textColor="@color/gwe"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingBottom="10dp"
+            android:text="1.医生认证后，赠送100个基础积分" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:textColor="@color/gwe"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingBottom="10dp"
+            android:text="2.回答问题，获得10个积分" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:textColor="@color/gwe"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingBottom="10dp"
+            android:text="3.回答问题收到一次点赞，获得2个积分" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:textColor="@color/gwe"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingBottom="40dp"
+            android:text="4.分享app链接，可获得20个积分" />
+
+    </LinearLayout>
+</LinearLayout>

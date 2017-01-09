@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile_w"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shallowGrey"
+    android:orientation="vertical"
+    tools:context="com.compassecg.test720.compassecg.Home.AcitvityW.my.profileActivityW">
+
+
+    <include
+        android:id="@+id/titlelayout"
+        layout="@layout/title_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/titlelayout"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:text="职业专长"
+                android:textColor="@color/gwe"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/zhuanc"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:hint="填写职业专长"
+                android:paddingLeft="16dp"
+                android:paddingTop="5dp"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="16dp"
+                android:text="个人经历"
+                android:textColor="@color/gwe"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/jinli"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/white"
+                android:gravity="top"
+                android:hint="填写个人经历"
+                android:paddingLeft="16dp"
+                android:paddingTop="5dp"
+                android:textColorHint="@color/gray"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

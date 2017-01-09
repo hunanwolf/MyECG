@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.compassecg.test720.compassecg.Home.AcitvityW.my.markActivityW">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/lv"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/lv"
+        app:tabTextAppearance="@style/tabTextSize"
+        app:tabTextColor="@color/grey"></android.support.design.widget.TabLayout>
+
+    <com.compassecg.test720.compassecg.View.CustomViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/elsel"
+        android:layout_below="@+id/tabs"
+        android:layout_marginTop="1dp"></com.compassecg.test720.compassecg.View.CustomViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/fenge"></View>
+
+    <LinearLayout
+        android:id="@+id/elsel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/farll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:drawableLeft="@drawable/jia"
+                android:gravity="center"
+                android:text=" 关注"
+                android:textColor="@color/lv"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="0.8dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/hui" />
+
+        <TextView
+            android:id="@+id/intvtion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="邀请"
+            android:textColor="@color/gwe"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="0.8dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/hui" />
+
+        <TextView
+            android:id="@+id/chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="私聊"
+            android:textColor="@color/gwe"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

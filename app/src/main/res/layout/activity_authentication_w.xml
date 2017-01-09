@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_authentication_w"
+    android:layout_width="match_parent"
+    android:background="@color/shallowGrey"
+    android:layout_height="match_parent"
+    tools:context="com.compassecg.test720.compassecg.Home.AcitvityW.my.AuthenticationActivityW">
+
+<LinearLayout
+    android:layout_width="match_parent"
+
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#FEFEF4"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="医生认证后，可使用特色服务"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/burlywood"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="1、优惠条件"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/burlywood"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="2、优惠条件"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/burlywood"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginTop="15dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="*"
+            android:textColor="@color/wenhong"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:textSize="19sp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="请上传工作证或者从业资格证"
+            android:textColor="@color/gwe"
+            android:gravity="center_vertical"
+            android:layout_height="48dp"
+            android:id="@+id/textView12" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:background="@color/shallowGrey"
+           android:layout_margin="16dp"
+            android:layout_height="120dp" />
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="0dp"
+
+            android:layout_margin="16dp"
+            android:background="@color/shallowGrey"
+            android:layout_weight="1"
+            android:layout_height="120dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="申请认证"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/drawoblelv"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:layout_height="50dp"
+        android:id="@+id/textbtn" />
+</LinearLayout>
+
+</LinearLayout>
+
+
+</RelativeLayout>

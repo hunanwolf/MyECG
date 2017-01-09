@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/huian"
+    android:clickable="true"
+  >
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="相册"
+        android:layout_marginLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+
+        android:id="@+id/pick"
+        android:background="@color/white"/>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/grey"
+        android:text="相机拍照"
+        android:layout_marginLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:id="@+id/take"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/clear"
+        android:textSize="18sp"
+        android:textColor="@color/lv"
+        android:text="取消"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="四川培训区"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/rad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingRight="15dp"
+            android:text="已读"
+
+            android:textColor="@color/gwe"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lineSpacingExtra="3dp"
+        android:lineSpacingMultiplier="1.3"
+        android:lines="2"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="啊结果把那块赶来看刚看了阿奎那格拉克尼古拉快过年了戛纳凉快哪凉快哪两个卡来概括俺们龙口港辣么"
+        android:textColor="@color/gwe"
+        android:textScaleX="1"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="160dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/picture_setting_album_checkbox"
+                android:button="@null"
+                android:checked="false"
+                android:visibility="invisible"
+                android:focusable="false" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:text="心脏疾病疑难心电图心脏疾病疑难心电图"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:lines="2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/gwe"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

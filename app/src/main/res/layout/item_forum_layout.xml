@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ngv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.compassecg.test720.compassecg.View.CircleImageView
+            android:id="@+id/htderde"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/head" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/nicname"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="70sp"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="name"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:id="@+id/clean"
+                    android:layout_width="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/btn_clean"
+                        android:layout_centerVertical="true"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/lt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:lines="2"
+                android:text="问就看烦了观看了国内看来咖喱块干冷干康乐抗拉看过那么阿奎拉尼咖喱块呢【实时诊断】"
+                android:textColor="@color/gwe"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lt_conuntext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:text="【实时诊断】"
+                android:textColor="@color/gray"
+                android:textSize="15sp" />
+
+            <com.compassecg.test720.compassecg.View.NineGridView
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="8dp"
+
+                ngv:gap="2dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="17分钟前"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true">
+
+                    <TextView
+                        android:id="@+id/lv_huiofu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical"
+                        android:text="20"
+                        android:textColor="@color/gwe" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="3dp"
+                        android:layout_toLeftOf="@+id/lv_huiofu"
+                        android:src="@drawable/index_pinglun" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

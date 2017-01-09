@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/shallowGrey"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:elevation="1dp"
+        android:translationZ="0.5dp"
+        android:layout_height="50dp"
+        android:background="@color/white">
+        <ImageView
+            style="@style/iv_back"
+            android:id="@+id/back"
+            android:src="@drawable/back_tomove"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="意见反馈"
+            android:textSize="18sp"
+            android:textColor="@color/gwe"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="top"
+        android:textColorHint="@color/qianhui"
+        android:background="@color/white"
+        android:id="@+id/detail"
+        android:maxEms="140"
+        android:textColor="@color/grey"
+        android:hint="写下对我们平台的意见或建议吧~"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:padding="13dp"/>
+    <Button
+        android:id="@+id/ok"
+        android:text="发送"
+        style="@style/btn_red" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

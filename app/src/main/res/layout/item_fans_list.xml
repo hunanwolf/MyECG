@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal">
+
+
+        <!--android:background="@drawable/ic_placeholder"-->
+        <com.compassecg.test720.compassecg.View.CircleImageView
+            android:id="@+id/lm_img"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_margin="10dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/iv_name"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="姓名"
+                    android:textColor="@color/gwe"
+                    android:textSize="17sp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/lv_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="职位"
+                    android:textColor="@color/qianhui"
+                    android:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/click"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/follow"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/drawoblelv"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:text="关注"
+
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Invitation"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/drawoblelvl"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:text="邀请"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+
+
+        <!--android:background="@drawable/ic_placeholder"-->
+        <ImageView
+            android:id="@+id/lm_img"
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="@color/wenhong" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/iv_name"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:lines="1"
+                    android:text="组名"
+                    android:textColor="@color/gwe"
+                    android:textSize="17sp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/lv_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="加入人数"
+                    android:textColor="@color/qianhui"
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/follow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/drawoblelv"
+                    android:gravity="center"
+                    android:padding="10dp"
+                   android:layout_alignParentRight="true"
+                    android:text="申请加入"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_coursewaredetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shallowGrey"
+    tools:context="com.compassecg.test720.compassecg.LearningFragment.Activity.CoursewaredetailsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp">
+
+
+
+                <ImageView
+
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/zazhi"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/imageView" />
+                <ImageView
+                    android:id="@+id/tul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/magazine_download" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="3dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:text="临床实用心电图实例分析与解读"
+                    android:textColor="@color/gwe"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+
+                        android:background="@drawable/backguang_l_blue"
+                        android:gravity="center"
+                        android:text="在线阅读"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/donwlado"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/drawoblelv"
+                        android:gravity="center"
+                        android:text="下载"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/titl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="杂志简介"
+            android:textColor="@color/gwe"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_below="@+id/titl"
+            android:padding="15dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@color/gray"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</ScrollView>
